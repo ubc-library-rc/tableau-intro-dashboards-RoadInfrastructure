@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Introduction
+title: Visualization basics
 nav_order: 4
+parent:Intro Dashboards - Day 1
 ---
-# Introduction
-Placeholder for first page of lesson
