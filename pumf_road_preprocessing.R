@@ -78,6 +78,10 @@ road2022$road_condition = case_when(
 )
 
 
+## only keep BC entries (doing this to make the files small enoguh for GitHub upload)
+road2020 = subset(road2020, road2020$province == 59)
+road2022 = subset(road2022, road2022$province == 59)
+
 ## save file
 write.csv(road2020, "pumf_road_2020.csv", row.names = F)
 write.csv(road2022, "pumf_road_2022.csv", row.names = F)
